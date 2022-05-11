@@ -1,0 +1,14 @@
+.Buttonx-TextField{
+    background-color: khaki;
+}
+
+#standard-basic{
+    width:30vw;
+    -webkit-appearance: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Button from './Button';
+import MarktanalyseATRRegio from './MarktanalyseATRRegio';
+import MarktanalyseVHLCO from './MarktanalyseVHCLO';
 
 
 
@@ -30,7 +31,8 @@ class App extends Component {
           return (<li className='App-Todo-li'>{todo}</li>)
         })}
         </ul>
-        <Button></Button>
+        <MarktanalyseATRRegio></MarktanalyseATRRegio>
+        <MarktanalyseVHLCO></MarktanalyseVHLCO>
       </div>
     );
   }
